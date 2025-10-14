@@ -5,7 +5,7 @@ CookMagic is a comprehensive Android cooking application that allows users to br
 
 ## Features
 
-### User Authentication
+User Authentication
 • User registration and login  
 • Profile management with Firebase Firestore  
 • Secure logout functionality  
