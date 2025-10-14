@@ -9,4 +9,6 @@ Cooking Magic also includes a Scan feature that allows users to take a picture o
 
 All recipes are grouped into simple categories such as breakfast, lunch, dinner, dessert, supper, and snacks, making it easy to browse and find what you’re looking for. The app starts with a welcoming home page that leads to a smooth login and sign up process for new users.
 
-Cooking Magic makes it easy to store personal recipes, discover new ones, manage ingredients, and organize meals — all in one convenient app.
+Cooking Magic makes it easy to store personal recipes, discover new ones, manage ingredients, and organize meals in one convenient app. The app was built using Kotlin for Android development. It uses Firebase as the main database to store user data, recipes, and pantry items. The Glide API is used for smooth and efficient image loading throughout the app.
+
+Dependencies used: Firebase Authentication, Firebase Realtime Database, Glide, and standard Android libraries for layouts, navigation, and user interface.
