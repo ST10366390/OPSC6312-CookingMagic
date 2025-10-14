@@ -1,4 +1,4 @@
-# **CookMagic - Recipe Management App**
+**CookMagic - Recipe Management App**
 
 ## **Overview**
 CookMagic is a comprehensive Android cooking application that allows users to browse, search, create, and manage recipes. The app features user authentication, recipe categorization, and a user-friendly interface for all cooking enthusiasts.
