@@ -4,7 +4,7 @@ CookMagic - Recipe Management App
 Overview
 CookMagic is a comprehensive Android cooking application that allows users to browse, search, create, and manage recipes. The app features user authentication, recipe categorization, and a user-friendly interface for all cooking enthusiasts.
 
-Features:
+ Features:
 
 User Authentication
 
@@ -13,6 +13,8 @@ User Authentication
 • Profile management with Firebase Firestore
 
 • Secure logout functionality
+
+
 
 Recipe Management:
 
@@ -28,6 +30,8 @@ Recipe Management:
 
 • Recipe Details: View comprehensive recipe information
 
+
+
 Category System:
 
 • Dynamic category management
@@ -37,6 +41,8 @@ Category System:
 • Filter recipes by categories
 
 • Pre-defined categories: All, Most Viewed, Most Downloaded
+
+
 
 Advanced Features:
 
@@ -49,6 +55,8 @@ Advanced Features:
 • Recipe sorting options
 
 • User-specific recipe management
+
+
 
 Technical Architecture:
 
@@ -67,11 +75,15 @@ ViewPager with tabs
 
 Custom filters
 
+
+
 Backend Services
 Authentication: Firebase Authentication
 Database: Firebase Realtime Database & Firestore
 Storage: Firebase Storage for images
 Real-time Updates: Firebase listeners
+
+
 
 Key Components
 
@@ -93,14 +105,20 @@ AdapterCategory - Manages category list display
 AdapterRecipeUser - Handles recipe list in user dashboard
 SearchAdapter - Manages search results display
 
+
+
 Filters
 FilterCategory - Implements category search filtering
 FilterRecipe - Implements recipe search filtering
+
+
 
 Models
 ModelUser - User data structure
 ModelCategory - Category data structure
 ModelRecipe - Recipe data structure
+
+
 
 Database Structure
 
@@ -128,6 +146,8 @@ Recipe Data Model
 }
 
 Installation & Setup
+
+
 
 Prerequisites
 • Android Studio Arctic Fox or later
