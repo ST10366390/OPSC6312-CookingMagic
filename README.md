@@ -1,30 +1,21 @@
 CookMagic - Recipe Management App
 
-Overview
+1. Overview
 CookMagic is a comprehensive Android cooking application that allows users to browse, search, create, and manage recipes. The app features user authentication, recipe categorization, and a user-friendly interface for all cooking enthusiasts.
 
-Features
+2. Features
 
 User Authentication
-
 • User registration and login
-
 • Profile management with Firebase Firestore
-
 • Secure logout functionality
 
 Recipe Management
-
 • Browse Recipes: View recipes in categorized tabs
-
 • Search Functionality: Search recipes by title, ingredients, or description
-
 • Create Recipes: Add new recipes with images, ingredients, and steps
-
 • Edit Recipes: Modify existing recipes
-
 • Delete Recipes: Remove unwanted recipes
-
 • Recipe Details: View comprehensive recipe information
 
 Category System
@@ -40,18 +31,22 @@ Advanced Features
 • Recipe sorting options
 • User-specific recipe management
 
-Technical Architecture
+3. Technical Architecture
 
 Frontend
 Language: Kotlin
 Architecture: MVVM (Model-View-ViewModel)
 UI Components:
 
-* Activities
-* Fragments
-* RecyclerViews with custom adapters
-* ViewPager with tabs
-* Custom filters
+Activities
+
+Fragments
+
+RecyclerViews with custom adapters
+
+ViewPager with tabs
+
+Custom filters
 
 Backend Services
 Authentication: Firebase Authentication
@@ -62,40 +57,40 @@ Real-time Updates: Firebase listeners
 Key Components
 
 Activities
-WelcomeActivity - Landing screen
-LoginActivity - User authentication
-ProfileActivity - User profile management
-DashUserActivity - User dashboard with recipe categories
-RecipeActivity - Recipe viewing and management
-RecipeEditActivity - Recipe creation and editing
-CategoryAddActivity - Category management
-SearchActivity - Advanced recipe search
+• WelcomeActivity - Landing screen
+• LoginActivity - User authentication
+• ProfileActivity - User profile management
+• DashUserActivity - User dashboard with recipe categories
+• RecipeActivity - Recipe viewing and management
+• RecipeEditActivity - Recipe creation and editing
+• CategoryAddActivity - Category management
+• SearchActivity - Advanced recipe search
 
 Fragments
-RecipeUserFragment - Displays recipes by category
+• RecipeUserFragment - Displays recipes by category
 
 Adapters
-AdapterCategory - Manages category list display
-AdapterRecipeUser - Handles recipe list in user dashboard
-SearchAdapter - Manages search results display
+• AdapterCategory - Manages category list display
+• AdapterRecipeUser - Handles recipe list in user dashboard
+• SearchAdapter - Manages search results display
 
 Filters
-FilterCategory - Implements category search filtering
-FilterRecipe - Implements recipe search filtering
+• FilterCategory - Implements category search filtering
+• FilterRecipe - Implements recipe search filtering
 
 Models
-ModelUser - User data structure
-ModelCategory - Category data structure
-ModelRecipe - Recipe data structure
+• ModelUser - User data structure
+• ModelCategory - Category data structure
+• ModelRecipe - Recipe data structure
 
-Database Structure
+4. Database Structure
 
 Firestore Collections
-users - User profiles and preferences
+• users - User profiles and preferences
 
 Realtime Database Nodes
-Categories - Recipe categories
-Recipes - Recipe data with metadata
+• Categories - Recipe categories
+• Recipes - Recipe data with metadata
 
 Recipe Data Model
 {
@@ -113,7 +108,7 @@ Recipe Data Model
 "servings": "number_of_servings"
 }
 
-Installation & Setup
+5. Installation & Setup
 
 Prerequisites
 • Android Studio Arctic Fox or later
@@ -122,31 +117,43 @@ Prerequisites
 
 Configuration
 
-1. Clone the repository
-2. Add your google-services.json file
-3. Configure Firebase projects:
+Clone the repository
 
-   * Authentication (Email/Password)
-   * Realtime Database
-   * Firestore Database
-   * Storage (optional for images)
+Add your google-services.json file
+
+Configure Firebase projects:
+
+Authentication (Email/Password)
+
+Realtime Database
+
+Firestore Database
+
+Storage (optional for images)
 
 Build Instructions
 
-1. Open project in Android Studio
-2. Sync Gradle dependencies
-3. Build and run on emulator or device
+Open project in Android Studio
 
-Usage Guide
+Sync Gradle dependencies
+
+Build and run on emulator or device
+
+6. Usage Guide
 
 For Users
 
-1. Registration/Login: Create account or login
-2. Browse Recipes: Navigate through categories
-3. Search: Use search functionality to find specific recipes
-4. View Recipe Details: Tap on any recipe for full details
-5. Create Recipes: Use the add recipe functionality
-6. Manage Profile: Update user information in profile section
+Registration/Login: Create account or login
+
+Browse Recipes: Navigate through categories
+
+Search: Use search functionality to find specific recipes
+
+View Recipe Details: Tap on any recipe for full details
+
+Create Recipes: Use the add recipe functionality
+
+Manage Profile: Update user information in profile section
 
 For Developers
 • The app follows Material Design guidelines
@@ -154,7 +161,7 @@ For Developers
 • Implements proper lifecycle management
 • Includes error handling and user feedback
 
-Dependencies
+7. Dependencies
 
 Main Libraries
 • firebase-auth - User authentication
@@ -168,21 +175,23 @@ Development Tools
 • Kotlin Coroutines
 • ViewBinding
 
-Contributing
+8. Contributing
 
-1. Fork the repository
-2. Create feature branch (git checkout -b feature/AmazingFeature)
-3. Commit changes (git commit -m 'Add some AmazingFeature')
-4. Push to branch (git push origin feature/AmazingFeature)
-5. Open a Pull Request
+Fork the repository
 
-License
+Create feature branch (git checkout -b feature/AmazingFeature)
+
+Commit changes (git commit -m 'Add some AmazingFeature')
+
+Push to branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+9. License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Support
+10. Support
 For support and questions, contact the development team or create an issue in the repository.
 
-Version
+11. Version
 Current Version: 1.0.0
-
-CookMagic - Bringing the joy of cooking to your fingertips!
