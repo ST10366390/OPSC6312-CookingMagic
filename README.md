@@ -8,6 +8,7 @@ Features
 
 User Authentication
 • User registration and login
+
 • Profile management with Firebase Firestore
 • Secure logout functionality
 
