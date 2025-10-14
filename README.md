@@ -20,13 +20,15 @@ CookMagic is a comprehensive Android cooking application that allows users to br
 • Delete Recipes: Remove unwanted recipes  
 • Recipe Details: View comprehensive recipe information  
 
-### **Category System**
+**Category System**
+
 • Dynamic category management  
 • Add new categories  
 • Filter recipes by categories  
 • Pre-defined categories: All, Most Viewed, Most Downloaded  
 
-### **Advanced Features**
+ **Advanced Features**
+ 
 • Real-time search with text filtering  
 • Image loading with Glide  
 • Full-screen image viewing  
@@ -35,7 +37,8 @@ CookMagic is a comprehensive Android cooking application that allows users to br
 
 ## **Technical Architecture**
 
-### **Frontend**
+ **Frontend**
+ 
 Language: Kotlin  
 Architecture: MVVM (Model-View-ViewModel)  
 
@@ -46,7 +49,8 @@ UI Components:
 • ViewPager with tabs  
 • Custom filters  
 
-### **Backend Services**
+ **Backend Services**
+ 
 Authentication: Firebase Authentication  
 Database: Firebase Realtime Database & Firestore  
 Storage: Firebase Storage for images  
@@ -54,7 +58,8 @@ Real-time Updates: Firebase listeners
 
 ## **Key Components**
 
-### **Activities**
+ **Activities**
+ 
 WelcomeActivity - Landing screen  
 LoginActivity - User authentication  
 ProfileActivity - User profile management  
@@ -64,19 +69,19 @@ RecipeEditActivity - Recipe creation and editing
 CategoryAddActivity - Category management  
 SearchActivity - Advanced recipe search  
 
-### **Fragments**
+ **Fragments**
 RecipeUserFragment - Displays recipes by category  
 
-### **Adapters**
+ **Adapters**
 AdapterCategory - Manages category list display  
 AdapterRecipeUser - Handles recipe list in user dashboard  
 SearchAdapter - Manages search results display  
 
-### **Filters**
+**Filters**
 FilterCategory - Implements category search filtering  
 FilterRecipe - Implements recipe search filtering  
 
-### **Models**
+ **Models**
 ModelUser - User data structure  
 ModelCategory - Category data structure  
 ModelRecipe - Recipe data structure  
