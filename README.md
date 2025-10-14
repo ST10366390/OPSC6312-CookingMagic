@@ -14,6 +14,7 @@ User Authentication
 • Secure logout functionality
 
 Recipe Management
+
 • Browse Recipes: View recipes in categorized tabs
 
 • Search Functionality: Search recipes by title, ingredients, or description
