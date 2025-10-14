@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73084876069",
+    "project_id": "cooking-magic-app",
+    "storage_bucket": "cooking-magic-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73084876069:android:61d5fa7366c076b97396cc",
+        "android_client_info": {
+          "package_name": "cooking.rapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlO_ewpld4bBf_yGyH0ppsE7gggm2zQmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
