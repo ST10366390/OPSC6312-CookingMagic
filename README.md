@@ -4,7 +4,7 @@ CookMagic - Recipe Management App
 Overview
 CookMagic is a comprehensive Android cooking application that allows users to browse, search, create, and manage recipes. The app features user authentication, recipe categorization, and a user-friendly interface for all cooking enthusiasts.
 
-Features
+Features:
 
 User Authentication
 
@@ -14,7 +14,7 @@ User Authentication
 
 • Secure logout functionality
 
-Recipe Management
+Recipe Management:
 
 • Browse Recipes: View recipes in categorized tabs
 
@@ -28,7 +28,7 @@ Recipe Management
 
 • Recipe Details: View comprehensive recipe information
 
-Category System
+Category System:
 
 • Dynamic category management
 
@@ -38,14 +38,19 @@ Category System
 
 • Pre-defined categories: All, Most Viewed, Most Downloaded
 
-Advanced Features
+Advanced Features:
+
 • Real-time search with text filtering
+
 • Image loading with Glide
+
 • Full-screen image viewing
+
 • Recipe sorting options
+
 • User-specific recipe management
 
-Technical Architecture
+Technical Architecture:
 
 Frontend
 Language: Kotlin
