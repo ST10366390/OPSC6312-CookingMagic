@@ -15,17 +15,27 @@ User Authentication
 • Secure logout functionality
 
 Recipe Management
+
 • Browse Recipes: View recipes in categorized tabs
+
 • Search Functionality: Search recipes by title, ingredients, or description
+
 • Create Recipes: Add new recipes with images, ingredients, and steps
+
 • Edit Recipes: Modify existing recipes
+
 • Delete Recipes: Remove unwanted recipes
+
 • Recipe Details: View comprehensive recipe information
 
 Category System
+
 • Dynamic category management
+
 • Add new categories
+
 • Filter recipes by categories
+
 • Pre-defined categories: All, Most Viewed, Most Downloaded
 
 Advanced Features
