@@ -70,32 +70,39 @@ CategoryAddActivity - Category management
 SearchActivity - Advanced recipe search  
 
  **Fragments**
+ 
 RecipeUserFragment - Displays recipes by category  
 
  **Adapters**
+ 
 AdapterCategory - Manages category list display  
 AdapterRecipeUser - Handles recipe list in user dashboard  
 SearchAdapter - Manages search results display  
 
 **Filters**
+
 FilterCategory - Implements category search filtering  
 FilterRecipe - Implements recipe search filtering  
 
  **Models**
+ 
 ModelUser - User data structure  
 ModelCategory - Category data structure  
 ModelRecipe - Recipe data structure  
 
 ## **Database Structure**
 
-### **Firestore Collections**
+**Firestore Collections**
+
 users - User profiles and preferences  
 
-### **Realtime Database Nodes**
+**Realtime Database Nodes**
+
 Categories - Recipe categories  
 Recipes - Recipe data with metadata  
 
-### **Recipe Data Model**
+**Recipe Data Model**
+
 {
 "id": "unique_recipe_id",  
 "title": "Recipe Title",  
@@ -113,12 +120,14 @@ Recipes - Recipe data with metadata
 
 ## **Installation & Setup**
 
-### **Prerequisites**
+**Prerequisites**
+
 • Android Studio Arctic Fox or later  
 • Android SDK 21+  
 • Google Firebase account  
 
-### **Configuration**
+**Configuration**
+
 1. Clone the repository  
 2. Add your google-services.json file  
 3. Configure Firebase projects:  
@@ -127,14 +136,16 @@ Recipes - Recipe data with metadata
    • Firestore Database  
    • Storage (optional for images)  
 
-### **Build Instructions**
+ **Build Instructions**
+ 
 1. Open project in Android Studio  
 2. Sync Gradle dependencies  
 3. Build and run on emulator or device  
 
 ## **Usage Guide**
 
-### **For Users**
+ **For Users**
+ 
 1. Registration/Login: Create account or login  
 2. Browse Recipes: Navigate through categories  
 3. Search: Use search functionality to find specific recipes  
@@ -142,7 +153,8 @@ Recipes - Recipe data with metadata
 5. Create Recipes: Use the add recipe functionality  
 6. Manage Profile: Update user information in profile section  
 
-### **For Developers**
+**For Developers**
+
 • The app follows Material Design guidelines  
 • Uses ViewBinding for type-safe view references  
 • Implements proper lifecycle management  
@@ -150,30 +162,36 @@ Recipes - Recipe data with metadata
 
 ## **Dependencies**
 
-### **Main Libraries**
+ **Main Libraries**
+ 
 • firebase-auth - User authentication  
 • firebase-database - Real-time data sync  
 • firebase-firestore - User data storage  
 • glide - Image loading and caching  
 • material-design - UI components  
 
-### **Development Tools**
+**Development Tools**
+
 • AndroidX libraries  
 • Kotlin Coroutines  
 • ViewBinding  
 
-## **Contributing**
+**Contributing**
+
 1. Fork the repository  
 2. Create feature branch (git checkout -b feature/AmazingFeature)  
 3. Commit changes (git commit -m 'Add some AmazingFeature')  
 4. Push to branch (git push origin feature/AmazingFeature)  
 5. Open a Pull Request  
 
-## **License**
+**License**
+
 This project is licensed under the MIT License - see the LICENSE file for details.  
 
-## **Support**
+ **Support**
+ 
 For support and questions, contact the development team or create an issue in the repository.  
 
-## **Version**
+**Version**
+
 Current Version: 1.0.0 
